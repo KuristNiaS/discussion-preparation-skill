@@ -1,0 +1,4 @@
+interface:
+  display_name: "Discussion Preparation for 留学生"
+  short_description: "为中国留学生核验、完整翻译并分析 academic readings"
+  default_prompt: "Use $discussion-preparation to verify my assigned readings, translate every part faithfully into natural Chinese without summarizing, explain difficult academic English, and prepare only the discussion analysis I request."
