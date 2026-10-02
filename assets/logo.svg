@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Discussion Preparation logo</title>
+  <desc id="desc">An open book with a conversation bubble</desc>
+  <rect width="512" height="512" rx="112" fill="#1F4E79"/>
+  <path d="M84 132c64-18 122-6 172 36v224c-50-38-108-50-172-32V132Z" fill="#FFFFFF"/>
+  <path d="M428 132c-64-18-122-6-172 36v224c50-38 108-50 172-32V132Z" fill="#E8F1F8"/>
+  <path d="M256 168v224" stroke="#1F4E79" stroke-width="16" stroke-linecap="round"/>
+  <path d="M300 88h110c22 0 38 16 38 38v68c0 20-16 38-38 38h-46l-38 34v-34h-26c-20 0-38-18-38-38v-68c0-22 18-38 38-38Z" fill="#F4B942"/>
+  <circle cx="316" cy="160" r="10" fill="#1F4E79"/>
+  <circle cx="354" cy="160" r="10" fill="#1F4E79"/>
+  <circle cx="392" cy="160" r="10" fill="#1F4E79"/>
+</svg>

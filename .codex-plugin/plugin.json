@@ -1,0 +1,44 @@
+{
+  "name": "discussion-preparation",
+  "version": "1.0.0",
+  "description": "Verify assigned readings, translate them completely into natural Chinese, explain academic English, and prepare source-grounded discussion analysis for Chinese international students.",
+  "author": {
+    "name": "KuristNiaS",
+    "url": "https://github.com/KuristNiaS"
+  },
+  "homepage": "https://github.com/KuristNiaS/discussion-preparation-skill",
+  "repository": "https://github.com/KuristNiaS/discussion-preparation-skill",
+  "license": "MIT",
+  "keywords": [
+    "academic-reading",
+    "chinese-students",
+    "discussion-preparation",
+    "translation",
+    "education"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Discussion Preparation",
+    "shortDescription": "Readings explained in Chinese",
+    "longDescription": "Discussion Preparation helps Chinese international students work through assigned academic readings without replacing the source with a summary. It verifies the confirmed reading list, editions, page ranges, scan quality, and page continuity; produces complete natural-Chinese translations without omission or condensation; preserves useful English names and terms for source lookup; explains difficult academic English; and prepares source-grounded analytical notes after translation is complete. Users must provide materials they are authorized to use. The plugin contains no course readings, student work, remote tools, or data-collection service.",
+    "developerName": "KuristNiaS",
+    "category": "Education & Research",
+    "capabilities": [
+      "Verify assigned readings and page coverage",
+      "Translate academic texts completely into natural Chinese",
+      "Explain difficult academic English and terminology",
+      "Prepare source-grounded discussion analysis"
+    ],
+    "websiteURL": "https://github.com/KuristNiaS/discussion-preparation-skill",
+    "privacyPolicyURL": "https://github.com/KuristNiaS/discussion-preparation-skill/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/KuristNiaS/discussion-preparation-skill/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "Verify my assigned readings and translate them completely into natural Chinese.",
+      "Explain difficult academic English in this reading without simplifying its argument.",
+      "Prepare Chinese-first discussion notes grounded in my completed translations."
+    ],
+    "brandColor": "#1F4E79",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg"
+  }
+}

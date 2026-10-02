@@ -17,7 +17,7 @@
 
 ## 安装
 
-将仓库中的 `discussion-preparation` 文件夹复制到 Codex skills 目录：
+将仓库中的 `skills/discussion-preparation` 文件夹复制到 Codex skills 目录：
 
 ```text
 Windows: %USERPROFILE%\.codex\skills\discussion-preparation
@@ -59,6 +59,12 @@ $discussion-preparation
 This Codex skill helps Chinese international students prepare for academic discussion sections. It verifies the assigned source set, produces complete Chinese translations without condensation, explains difficult academic English, and creates source-grounded analytical notes only after translation coverage is complete.
 
 The skill preserves useful English names and terminology so students can locate evidence in the original reading. It defaults to analytical notes rather than ready-made classroom scripts.
+
+## Plugin package
+
+This repository is also packaged as a skills-only Codex plugin. The plugin manifest is in `.codex-plugin/plugin.json`, and the distributable ZIP is produced from the repository's plugin files without course readings or student work.
+
+Public directory publication is subject to OpenAI review. Until the directory listing is approved, install the standalone skill from `skills/discussion-preparation`.
 
 ## License
 
