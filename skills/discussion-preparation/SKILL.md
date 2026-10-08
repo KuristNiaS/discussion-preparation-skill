@@ -12,7 +12,7 @@ Build source-grounded discussion notes in three gated phases: obtain the assignm
 When the user is a Chinese international student and gives no conflicting preference:
 
 - Write explanations in clear Chinese suitable for a learner with intermediate academic English.
-- Translate assigned readings completely into natural Chinese while retaining important English names, titles, quotations, and technical terms where they support study or citation.
+- Translate assigned readings completely into natural Chinese while retaining important English names, quotations, and technical terms where they support study or citation. Apply the mandatory first-mention rule for titled works in Phase 2.
 - Give key concepts as `English term（中文解释）` on first use.
 - Make analytical notes Chinese-first and preserve the English wording needed to locate evidence in the source.
 - Explain difficult academic phrasing without simplifying the source's argument, evidence, uncertainty, or qualifications.
@@ -67,6 +67,8 @@ For each source:
 - Verify every required printed page is present.
 - Check first and last sentences across page boundaries for missing continuations.
 - Identify OCR defects, unreadable scans, duplicated pages, and omitted pages.
+- Visually inspect rotated, multi-page, or multi-column scans instead of trusting extracted text order. Identify where an assigned item starts and ends when the same file includes adjacent unassigned material.
+- Record overlaps between split files and preserve each assigned file's verified coverage without double-counting the overlap in synthesis.
 - Record edition or pagination differences explicitly.
 
 Open the translation phase only when every listed reading is present, readable, and covers the required range. If this gate fails, report the exact gap and wait for the missing upload.
@@ -84,9 +86,10 @@ Each translation file must:
 - Translate the full assigned range without summarizing or omitting content.
 - Represent every source sentence and detail faithfully. Natural target-language restructuring is allowed, but condensation, selective paraphrase, and replacement with a summary are not.
 - Preserve title, headings, paragraph order, quotations, lists, figure captions, tables when practical, and material footnote markers.
+- On the first occurrence of every titled work, reproduce the source's original-language title exactly and leave it untranslated. This applies to films, television works, songs, albums, books, articles, plays, poems, artworks, and comparable named works. A source-metadata line or heading counts as the first occurrence only when it contains the exact original title. After that first occurrence, retain the original title by default; use a concise Chinese reference only when it improves reading flow and still leaves the work unambiguous.
 - Translate meaningful figure, map, diagram, and table text; use a structured list or table when reproducing spatial layout is impractical.
 - Mark source page boundaries, preferably as `<!-- Source page 87 -->` or a visible page heading when page-level review matters.
-- Keep people, organizations, films, songs, albums, and specialized concepts in the original language alongside the translation when useful.
+- Keep people, organizations, and specialized concepts in the original language alongside the translation when useful; handle titled works with the mandatory first-mention rule above.
 - Repair obvious OCR line breaks and hyphenation without changing meaning.
 - Mark uncertain readings or translations instead of guessing.
 - Continue from the exact unfinished sentence when supplementing an earlier translation.
@@ -138,6 +141,7 @@ Generate the components the user requests. Common components include:
 
 - Compare agreements, tensions, methods, and historical scales.
 - Connect evidence across texts without erasing differences between primary and secondary sources.
+- When a discussion prompt names a comparator outside the confirmed assignment record, distinguish a course-framework comparison from a textual comparison. State the limitation, avoid line-level claims about the missing text, and request the comparator only when textual comparison is necessary to answer the prompt.
 - End with analytical themes or further questions when requested.
 
 ## Completion standard
